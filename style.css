@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.login-button {
+    background-color: cadetblue;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.login-button button {
+    border-radius: 10px;
+    background-color: rgb(99, 99, 228);
+    padding: 10px 15px;
+    font-size: 18px;
+    color: white;
+    transition: 0.3s;
+
+
+}
+
+.login-button button:hover{
+    transform: scale(1.2);
+    background-color: crimson;
+}
